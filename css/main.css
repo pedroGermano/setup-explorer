@@ -32,3 +32,61 @@ button{
   line-height: 125%;
   gap: 12px;
 }
+
+input{
+  width: 4rem;
+  height: 4rem;
+  appearance: none;
+  border: 2px solid #27272a;
+  background-color: #181818;
+  border-radius: 8px;
+}
+
+input:checked{
+  background: #8b5cf6;
+  border: 2px solid #a78bfa;
+}
+
+#form__habits{
+  display: flex;
+  padding: 0 3rem;
+}
+
+.days{
+  display: flex;
+  margin-left: 2rem;
+  gap: 48px;
+
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div{
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto Mono';
+  font-size: 1.25rem;
+  line-height: 125%;
+  color: #a1a1a1;
+  margin-bottom: 0.5rem;
+}
+
+.habits{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 3.75rem;
+}
+
+.habit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+}
