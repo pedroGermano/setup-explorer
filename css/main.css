@@ -1,23 +1,23 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #09090a;
   color: #fff;
   height: 100vh;
 }
 
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 3rem;
 }
 
-button{
+button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,7 @@ button{
   gap: 12px;
 }
 
-input{
+input {
   width: 4rem;
   height: 4rem;
   appearance: none;
@@ -42,40 +42,39 @@ input{
   border-radius: 8px;
 }
 
-input:checked{
+input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bfa;
 }
 
-#form__habits{
+#form__habits {
   display: flex;
   padding: 0 3rem;
 }
 
-.days{
+.days {
   display: flex;
   margin-left: 2rem;
   gap: 48px;
-
 }
 
-.day{
+.day {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.day div{
+.day div {
   display: flex;
   align-items: center;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 1.25rem;
   line-height: 125%;
   color: #a1a1a1;
   margin-bottom: 0.5rem;
 }
 
-.habits{
+.habits {
   display: flex;
   flex-direction: column;
   gap: 24px;
